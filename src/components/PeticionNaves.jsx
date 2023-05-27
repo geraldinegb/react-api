@@ -20,7 +20,7 @@ const PeticionNaves = () => {
     
     const atrás = () =>{
       setPaginacion(paginacion-2)
-      listadoNaves(paginacion-2)
+      listadoNaves(paginacion<=0?0: paginacion-2)
     }
 
   return (
