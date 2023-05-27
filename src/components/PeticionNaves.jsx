@@ -12,7 +12,16 @@ const PeticionNaves = () => {
       setNaves(respuesta)
       console.log(respuesta)   
   }
-   
+
+    const siguiente = () =>{
+      setPaginacion(paginacion+2)
+      listadoNaves(paginacion+2)
+    }
+    
+    const atrás = () =>{
+      setPaginacion(paginacion-2)
+      listadoNaves(paginacion-2)
+    }
 
   return (
     <div className="body">
