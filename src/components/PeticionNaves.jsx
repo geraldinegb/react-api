@@ -25,19 +25,19 @@ const PeticionNaves = () => {
 
   return (
     <div className="body">
-      <h1 > PETICIÓN DE NAVES ESPACIALES</h1><hr/>
-      <th><tr><td><button className= "boton1" onClick={listadoNaves}>Ver Naves Espaciales</button></td> 
+      <h1 > PETICIÓN DE NAVES ESPACIALES</h1>
+      <tr><td><button className= "boton1" onClick={listadoNaves}>Ver Naves Espaciales</button></td> 
       <td><button className= "boton2" onClick={siguiente}>Siguiente</button></td>
       <td><button className= "boton3" onClick={atrás}>Atrás</button><br /></td>
       </tr>
-      </th>
-      <hr />
+      
      
       {
-        naves.map(({rocket_name: name,flickr_images: image})=> (
+        naves.map(({rocket_name: name,flickr_images: image, description: description})=> (
           <div className="contenedor">
           <h4>{name}</h4>
           <img src={image} alt="" />
+          <h6>{description}</h6>
           </div>
         )
         )
