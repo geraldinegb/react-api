@@ -43,6 +43,11 @@ const PeticionNaves = () => {
         )
        
       }
+
+<h5 > Ing. Geraldine Granados</h5>
+<h5 > Especialización en Desarrollo de Software</h5>
+<h5 > 2023-1</h5>
+
 </div>
   )
 }
