@@ -23,3 +23,42 @@ code {
 height: 350 px;
 width: 350 px;
 }
+
+.boton1 {
+  background-color: #011d97; 
+  border: 12px solid#011d97; 
+  border-radius: 12px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 750px;
+}
+
+.boton2 {
+  background-color:#008CBA; 
+  border: 12px solid #008CBA; 
+  border-radius: 12px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 300px;
+}
+
+.boton3 {
+  background-color: #008CBA; 
+  border: 12px solid #008CBA; 
+  border-radius: 12px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 300px;
+}

@@ -24,11 +24,12 @@ const PeticionNaves = () => {
     }
 
   return (
+    
     <div className="body">
       <h1 > PETICIÓN DE NAVES ESPACIALES</h1><hr/>
-      <th><button onClick={listadoNaves}>Ver Naves Espaciales</button> </th>
-      <th><button onClick={siguiente}>Siguiente</button></th>
-      <th><button onClick={atrás}>Atrás</button><br /></th>
+      <th><tr><td><button className="boton1" onClick={listadoNaves}>Ver Naves Espaciales</button></td> 
+      <td><button className="boton2" onClick={siguiente}>Siguiente</button></td>
+      <td><button className="boton3" onClick={atrás}>Atrás</button></td><br /></tr></th>
       <hr />
     
       {
